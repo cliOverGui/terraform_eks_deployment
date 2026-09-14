@@ -1,0 +1,12 @@
+name: Terraform CI
+on:
+  workflow_dispatch:
+
+jobs:
+  terraform-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+        run: echo "hello world"
+      - name: print goodbye
+        run: echo "job done"
